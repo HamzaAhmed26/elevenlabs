@@ -410,6 +410,7 @@ if st.session_state.api_connected:
                         )
                     
                     st.markdown('</div>', unsafe_allow_html=True)
+                    st.write(f"Using API Key: {api_key[:4]}... (truncated for security)")
 
 # Footer
 st.markdown("---")
